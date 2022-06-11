@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 const fs = require("fs");
 const { v4: uuidv4 } = require("uuid");
-
+const path = require("path");
 const filePath = "./data/videos.json";
 
 //helper functions
@@ -24,7 +24,27 @@ const writeNewVideosToJSON = (video) => {
   fs.writeFileSync(filePath, updatedVideos);
 };
 
-//routes
+//source: https://www.geeksforgeeks.org/node-js-fs-readdirsync-method/
+
+//Counts number of files in Image directory
+
+const countTotalFilesInDir = () => {
+  let counter = 0;
+  files = fs.readdirSync(path.join(__dirname, "../public/images"));
+  // files.forEach(() => {
+  //   counter++;
+  // });
+  return { fileCount: files.length, fileNames: files };
+};
+
+const getRandomImagePath = () => {
+  let total = countTotalFilesInDir();
+  randomFileIndex = Math.floor(Math.random() * total.fileCount); //generates a random number from 0 to total.fileCount
+  let imageName = total.fileNames[randomFileIndex];
+  return `${path.join(__dirname, "../public/images/")}${imageName}`;
+};
+
+//route
 
 router.get("/:id", (req, res) => {
   res.json(getVideoById(req.params.id));
@@ -38,7 +58,7 @@ router.post("/", (req, res) => {
   let uploadedVideo = {
     title: req.body.title,
     channel: "Sample Channel",
-    image: "Image path",
+    image: getRandomImagePath(),
     description: req.body.description,
     views: "1000",
     likes: "250,000",
