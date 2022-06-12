@@ -276,16 +276,163 @@
     "id": "76ca28c0-7dea-4553-887f-8e5129a80fc3"
   },
   {
-    "title": "my title",
+    "title": "My sample title",
     "channel": "Sample Channel",
-    "image": "Image path",
-    "description": "My description",
+    "image": "../public/image5.jpeg",
+    "description": "This is my sample video",
     "views": "1000",
     "likes": "250,000",
     "duration": "3:50",
     "video": "https://project-2-api.herokuapp.com/stream",
-    "timestamp": "2022-06-07T21:42:35.183Z",
-    "comments": [],
-    "id": "b557f7e1-a214-4f04-ac89-0524c6cc9e2d"
+    "timestamp": "Sat Jun 11 2022 23:23:22 GMT-0400 (Eastern Daylight Saving Time)",
+    "comments": [
+      {
+        "name": "Mattie Casarez",
+        "comment": "This is exactly the kind of advice I’ve been looking for! One minute you’re packing your bags, the next you’re dancing around in the streets without a care in the world.",
+        "likes": 0,
+        "timestamp": 1625250720000
+      },
+      {
+        "name": "Taylor Jade",
+        "comment": "Excellent tips! Another idea is to keep all of your important belongings like your passport inside a waterproof bag. Perfect for those last minute trips to the beach, trust me.",
+        "likes": 0,
+        "timestamp": 1625238122000
+      },
+      {
+        "name": "Adnan Natt",
+        "comment": "Who ever knew travel could be so easy? Looking forward to getting to put this into practice when I fly away in the near future. Wish me good luck!",
+        "likes": 0,
+        "timestamp": 1625177192000
+      }
+    ],
+    "id": "5ad6430b-d670-4191-8a9f-034dc67aa177"
+  },
+  {
+    "title": "Another one",
+    "channel": "Sample Channel",
+    "image": "http://localhost:8080/public/image4.jpeg",
+    "description": "This is another video",
+    "views": "1000",
+    "likes": "250,000",
+    "duration": "3:50",
+    "video": "https://project-2-api.herokuapp.com/stream",
+    "timestamp": "Sat Jun 11 2022 23:42:00 GMT-0400 (Eastern Daylight Saving Time)",
+    "comments": [
+      {
+        "name": "Mattie Casarez",
+        "comment": "This is exactly the kind of advice I’ve been looking for! One minute you’re packing your bags, the next you’re dancing around in the streets without a care in the world.",
+        "likes": 0,
+        "timestamp": 1625250720000
+      },
+      {
+        "name": "Taylor Jade",
+        "comment": "Excellent tips! Another idea is to keep all of your important belongings like your passport inside a waterproof bag. Perfect for those last minute trips to the beach, trust me.",
+        "likes": 0,
+        "timestamp": 1625238122000
+      },
+      {
+        "name": "Adnan Natt",
+        "comment": "Who ever knew travel could be so easy? Looking forward to getting to put this into practice when I fly away in the near future. Wish me good luck!",
+        "likes": 0,
+        "timestamp": 1625177192000
+      }
+    ],
+    "id": "82dff909-d8e1-4155-84dc-7b89d9f6d212"
+  },
+  {
+    "title": "My favorite video",
+    "channel": "Sample Channel",
+    "image": "http://localhost:8080/public/images/image6.jpeg",
+    "description": "This is a great video!",
+    "views": "1000",
+    "likes": "250,000",
+    "duration": "3:50",
+    "video": "https://project-2-api.herokuapp.com/stream",
+    "timestamp": "Sat Jun 11 2022 23:43:57 GMT-0400 (Eastern Daylight Saving Time)",
+    "comments": [
+      {
+        "name": "Mattie Casarez",
+        "comment": "This is exactly the kind of advice I’ve been looking for! One minute you’re packing your bags, the next you’re dancing around in the streets without a care in the world.",
+        "likes": 0,
+        "timestamp": 1625250720000
+      },
+      {
+        "name": "Taylor Jade",
+        "comment": "Excellent tips! Another idea is to keep all of your important belongings like your passport inside a waterproof bag. Perfect for those last minute trips to the beach, trust me.",
+        "likes": 0,
+        "timestamp": 1625238122000
+      },
+      {
+        "name": "Adnan Natt",
+        "comment": "Who ever knew travel could be so easy? Looking forward to getting to put this into practice when I fly away in the near future. Wish me good luck!",
+        "likes": 0,
+        "timestamp": 1625177192000
+      }
+    ],
+    "id": "6cac0c71-55c3-4e1e-8257-c5519d2a75df"
+  },
+  {
+    "title": "My video",
+    "channel": "Sample Channel",
+    "image": "http://localhost:8080/public/images/image8.jpeg",
+    "description": "I like this video.",
+    "views": "1000",
+    "likes": "250,000",
+    "duration": "3:50",
+    "video": "https://project-2-api.herokuapp.com/stream",
+    "timestamp": "Sat Jun 11 2022 23:54:33 GMT-0400 (Eastern Daylight Saving Time)",
+    "comments": [
+      {
+        "name": "Mattie Casarez",
+        "comment": "This is exactly the kind of advice I’ve been looking for! One minute you’re packing your bags, the next you’re dancing around in the streets without a care in the world.",
+        "likes": 0,
+        "timestamp": 1625250720000
+      },
+      {
+        "name": "Taylor Jade",
+        "comment": "Excellent tips! Another idea is to keep all of your important belongings like your passport inside a waterproof bag. Perfect for those last minute trips to the beach, trust me.",
+        "likes": 0,
+        "timestamp": 1625238122000
+      },
+      {
+        "name": "Adnan Natt",
+        "comment": "Who ever knew travel could be so easy? Looking forward to getting to put this into practice when I fly away in the near future. Wish me good luck!",
+        "likes": 0,
+        "timestamp": 1625177192000
+      }
+    ],
+    "id": "122c705c-ba73-4e34-b6cf-de36bf5cb154"
+  },
+  {
+    "title": "Another video",
+    "channel": "Sample Channel",
+    "image": "http://localhost:8080/public/images/image1.jpeg",
+    "description": "This is another one",
+    "views": "1000",
+    "likes": "250,000",
+    "duration": "3:50",
+    "video": "https://project-2-api.herokuapp.com/stream",
+    "timestamp": "Sat Jun 11 2022 23:55:27 GMT-0400 (Eastern Daylight Saving Time)",
+    "comments": [
+      {
+        "name": "Mattie Casarez",
+        "comment": "This is exactly the kind of advice I’ve been looking for! One minute you’re packing your bags, the next you’re dancing around in the streets without a care in the world.",
+        "likes": 0,
+        "timestamp": 1625250720000
+      },
+      {
+        "name": "Taylor Jade",
+        "comment": "Excellent tips! Another idea is to keep all of your important belongings like your passport inside a waterproof bag. Perfect for those last minute trips to the beach, trust me.",
+        "likes": 0,
+        "timestamp": 1625238122000
+      },
+      {
+        "name": "Adnan Natt",
+        "comment": "Who ever knew travel could be so easy? Looking forward to getting to put this into practice when I fly away in the near future. Wish me good luck!",
+        "likes": 0,
+        "timestamp": 1625177192000
+      }
+    ],
+    "id": "3f43591d-a5c5-4614-936b-778374d0c954"
   }
 ]
