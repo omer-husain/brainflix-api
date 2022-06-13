@@ -27,6 +27,11 @@ console.log(path.join(__dirname, "public"));
 //using middle ware to get video routes in separate file for better readilbiily and structire
 app.use("/videos", videoRoutes);
 
+//for missing pages
+app.get("*", (req, res) => {
+  res.status(404).send("page not found");
+});
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}!`);
 });
