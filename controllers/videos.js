@@ -28,6 +28,7 @@ const countTotalFilesInDir = () => {
   return { fileCount: files.length, fileNames: files };
 };
 
+//gets random image file name based on random index and files counted by readdir method of fs
 const getRandomImage = () => {
   let images = countTotalFilesInDir();
   randomFileIndex = Math.floor(Math.random() * images.fileCount); //generates a random number from 0 to images.fileCount
